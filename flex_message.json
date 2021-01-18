@@ -1,0 +1,136 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://eeagrants.org/sites/default/files/styles/fmo_large_image/public/fusion-medical-animation-rnr8D3FNUNY-unsplash_0.jpg?itok=cwm4OsoG",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "http://linecorp.com/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Covid-19 Indonesia",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "margin": "md",
+          "contents": []
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Sumber Data:",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "text",
+                  "text": "covid-19.go.id",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 5
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Update Terakhir:",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "text",
+                  "text": "31 Desember 2020",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "Sebaran",
+            "uri": "https://covid19.go.id/peta-sebaran-covid19"
+          }
+        },
+        {
+          "type": "button",
+          "style": "secondary",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "Edukasi",
+            "uri": "https://covid19.go.id/edukasi/pengantar"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "Protokol",
+            "uri": "https://covid19.go.id/p/protokol"
+          },
+          "style": "secondary",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "Kunjungi Situs Resmi",
+            "uri": "https://covid19.go.id"
+          },
+          "height": "sm",
+          "style": "link"
+        },
+        {
+          "type": "spacer",
+          "size": "sm"
+        }
+      ],
+      "flex": 0
+    }
+  }
