@@ -1,6 +1,6 @@
 # COVID-19-Indonesia-ChatBOT
 LINE chatBot about dissemination of COVID-19 in Indonesia. 
-Implemented using PHP from LINE API.
+Implemented using PHP with LINE API.
 Featured Greeting Message, Main Menu, and Callback Message.
 Bot is no longer active.
 
